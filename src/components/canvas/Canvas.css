@@ -1,0 +1,9 @@
+.canvas-wrapper{
+    width: calc(100%);
+    height: calc(100vh - 60px);
+}
+
+.konvajs-content{
+    width: 100%;
+    background-color: #eee;
+}

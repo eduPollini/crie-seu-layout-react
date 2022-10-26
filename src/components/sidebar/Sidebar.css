@@ -1,0 +1,121 @@
+.sidebar{
+    display: flex;
+    z-index: 10;
+    width: 310px;
+    height: calc(100vh - 60px);
+    margin: 0;
+}
+  
+.sidebar-menu{
+    display: block;
+    height: calc(100vh - 60px);
+    width: 60px;
+    background-color: var(--dark-green);
+}
+
+.hide{
+    display: none !important;
+}
+  
+.sidebar-links{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    border: none;
+    padding: 16px 0;
+    width: 60px;
+    font-size: 24px;
+}
+  
+.sidebar-links:hover{
+    background-color: white;
+    color: var(--dark-green);
+}
+
+.bg-white{
+    background-color: white;
+    color: var(--dark-green);
+}
+
+.bg-dark-green{
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.sidebar-icon{
+    height: 50px;
+    width: 25px;
+    background-color: var(--dark-green);
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 310px;
+    transform: translateY(-50%);
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.sidebar-icon svg{
+    font-size: 21px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    left: 0;
+}
+
+.sidebar-icon:hover{
+    width: 35px;
+}
+
+.sidebar-pages{
+    display: block;
+}
+
+.pages{
+  width: 250px;
+  height: calc(100vh - 60px);
+  background-color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.pages h3{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.page-items{
+    list-style-type: none;
+}
+
+.pages-btn{
+    color: #444;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pages-btn:hover{
+    color: white;
+    background-color: var(--dark-green);
+}
+
+.page-items button svg{
+    margin: 0 10px;
+    font-size: 21px;
+    vertical-align: text-bottom;
+}
