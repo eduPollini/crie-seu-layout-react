@@ -14,9 +14,11 @@ Crie Seu Layout is an application developed for "Sítio Refúgio dos Pássaros" 
 
 ## Updates Tags
 
-📦 New Functionalities;
-🐛 Bug Fix;
+📦 New Functionalities;<br/>
+🐛 Bug Fix;<br/>
 ⬆️ Content Update;
+
+<hr>
 
 ## Versions
 
@@ -31,10 +33,10 @@ Crie Seu Layout is an application developed for "Sítio Refúgio dos Pássaros" 
 
 #### Sidebar
 * New Buttons (Not Working Yet): 
-- [SelectLayout] => Default Layout, New Layout;
-- [Build] => Room, Wall, Surface, Door, Window, Text;
-- [Objects] => Square Table, Round Table, Buffet Table, Cake Table;
-- [Export] => Download, Share with SRP.
+- SelectLayout: Default Layout, New Layout;
+- Build: Room, Wall, Surface, Door, Window, Text;
+- Objects: Square Table, Round Table, Buffet Table, Cake Table;
+- Export: Download, Share with SRP.
 
 * Close/Open Sidebar Button
 
